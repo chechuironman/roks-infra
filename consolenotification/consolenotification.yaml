@@ -3,6 +3,6 @@ kind: ConsoleNotification
 metadata:
   name: banner-env
 spec:
-  backgroundColor: teal
+  backgroundColor: blue
   location: BannerTop
   text: ROKS-SPLIT-1
