@@ -3,14 +3,12 @@
 # Declare variables to be passed into your templates.
 ocs-operator:
   ocs:
-    installOCS: true
-    # channel: stable-4.6
-    # version: 4.6.3
-    sizeOSD: 512 Gi
-    # storageClass: thin
-    worker_ip_1:
+    sizeOSD: 
+    storageClass: 
+    worker_ip_1: 
     worker_ip_2:
     worker_ip_3:
+    billingType:
 
 
 
