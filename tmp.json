@@ -1,0 +1,102 @@
+{
+    "apiVersion": "v1",
+    "kind": "Namespace",
+    "metadata": {
+        "annotations": {
+            "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Namespace\",\"metadata\":{\"annotations\":{},\"labels\":{\"app.kubernetes.io/instance\":\"openshift-storage-namespace\"},\"name\":\"openshift-storage\"}}\n",
+            "mcm.ibm.com/accountID": "id-mycluster-account",
+            "mcm.ibm.com/type": "System",
+            "openshift.io/sa.scc.mcs": "s0:c28,c17",
+            "openshift.io/sa.scc.supplemental-groups": "1000790000/10000",
+            "openshift.io/sa.scc.uid-range": "1000790000/10000",
+            "scheduler.alpha.kubernetes.io/defaultTolerations": "[{\"Key\": \"node-role.kubernetes.io/storage\", \"Operator\": \"Equal\", \"Value\": \"true\", \"Effect\": \"NoSchedule\"}]",
+            "scheduler.alpha.kubernetes.io/node-selector": "node-role.kubernetes.io/storage=true"
+        },
+        "creationTimestamp": "2021-08-06T13:34:20Z",
+        "labels": {
+            "app.kubernetes.io/instance": "openshift-storage-namespace"
+        },
+        "managedFields": [
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            ".": {},
+                            "f:kubectl.kubernetes.io/last-applied-configuration": {}
+                        },
+                        "f:labels": {
+                            ".": {},
+                            "f:app.kubernetes.io/instance": {}
+                        }
+                    },
+                    "f:status": {
+                        "f:phase": {}
+                    }
+                },
+                "manager": "argocd-application-controller",
+                "operation": "Update",
+                "time": "2021-08-06T13:34:10Z"
+            },
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            "f:openshift.io/sa.scc.mcs": {},
+                            "f:openshift.io/sa.scc.supplemental-groups": {},
+                            "f:openshift.io/sa.scc.uid-range": {}
+                        }
+                    }
+                },
+                "manager": "cluster-policy-controller",
+                "operation": "Update",
+                "time": "2021-08-06T13:34:20Z"
+            },
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            "f:mcm.ibm.com/accountID": {},
+                            "f:mcm.ibm.com/type": {}
+                        }
+                    }
+                },
+                "manager": "oidcclient",
+                "operation": "Update",
+                "time": "2021-08-06T13:34:41Z"
+            },
+            {
+                "apiVersion": "v1",
+                "fieldsType": "FieldsV1",
+                "fieldsV1": {
+                    "f:metadata": {
+                        "f:annotations": {
+                            "f:scheduler.alpha.kubernetes.io/defaultTolerations": {},
+                            "f:scheduler.alpha.kubernetes.io/node-selector": {}
+                        }
+                    }
+                },
+                "manager": "oc",
+                "operation": "Update",
+                "time": "2021-08-06T13:41:39Z"
+            }
+        ],
+        "name": "openshift-storage",
+        "resourceVersion": "65470995",
+        "selfLink": "/api/v1/namespaces/openshift-storage",
+        "uid": "26e1b9dc-0fd7-4ec5-8186-dd9ecddd74e9"
+    },
+    "spec": {
+        "finalizers": [
+            "kubernetes"
+        ]
+    },
+    "status": {
+        "phase": "Active"
+    }
+}
