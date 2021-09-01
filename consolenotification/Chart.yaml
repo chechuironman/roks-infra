@@ -1,0 +1,10 @@
+apiVersion: v2
+name: console-notification
+description: Deployment of Console Notification Chart
+type: application
+version: 0.1.1
+appVersion: "1.0"
+dependencies:
+  - name: console-notification
+    version: 0.1.1
+    repository: https://chechuironman.github.io/helm-repo/
