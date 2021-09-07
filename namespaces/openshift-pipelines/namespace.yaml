@@ -3,5 +3,5 @@ kind: Namespace
 metadata:
   name: openshift-pipelines
   annotations:
-      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "node-role.kubernetes.io/foundational-services", "Operator": "Equal", "Value": "true", "Effect": "NoSchedule"}]'
+      scheduler.alpha.kubernetes.io/defaultTolerations: '[{"Key": "node-role.kubernetes.io/foundational-services", "Operator": "Equal", "Value": "true", "Effect": "NoExecute"}]'
       scheduler.alpha.kubernetes.io/node-selector: node-role.kubernetes.io/foundational-services=true

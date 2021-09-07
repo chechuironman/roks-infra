@@ -11,7 +11,7 @@ spec:
     node-role.kubernetes.io/foundational-services: "true"
     node-role.kubernetes.io/master: ""
   tolerations:
-    - effect: NoSchedule
+    - effect: NoExecute
       key: node-role.kubernetes.io/foundational-services
       value: 'true'
       operator: Equal

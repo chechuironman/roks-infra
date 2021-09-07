@@ -12,13 +12,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -26,13 +26,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -40,13 +40,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -54,13 +54,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -68,13 +68,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -82,13 +82,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -96,13 +96,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -110,13 +110,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
@@ -124,13 +124,13 @@ data:
       nodeSelector:
         node-role.kubernetes.io/foundational-services: "true"
       tolerations:
-      - effect: NoSchedule
+      - effect: NoExecute
         key: node-role.kubernetes.io/foundational-services
         value: 'true'
         operator: Equal
       - key: infra
         value: reserved
-        effect: NoSchedule
+        effect: NoExecute
       - key: infra
         value: reserved
         effect: NoExecute
