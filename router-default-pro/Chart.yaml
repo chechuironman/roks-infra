@@ -2,11 +2,11 @@ apiVersion: v2
 name: router-default-pro
 description: Deployment of Router Default Pro Service Load Balancer in IBM Cloud
 type: application
-version: 0.1.0
+version: 0.1.1
 appVersion: "1.0"
 dependencies:
   - name: router-default-pro
-    version: 0.1.0
+    version: 0.1.1
     repository: https://chechuironman.github.io/helm-repo/
 
 
