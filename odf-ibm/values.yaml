@@ -12,8 +12,4 @@ ocs-operator:
     cpaks_enable:
     storage_enable:
     foundational_services_enable:
-    workers:
-    initial_class_name:
-
-
-
+    worker_enable:
