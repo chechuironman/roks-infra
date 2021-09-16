@@ -13,6 +13,7 @@ ocs-operator:
     storage_enable:
     foundational_services_enable:
     workers:
+    initial_class_name:
 
 
 

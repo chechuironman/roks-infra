@@ -1,12 +1,12 @@
 apiVersion: v2
-name: ocs-operator
+name: odf-operator
 description: Deployment of OpenShift Container Storage
 type: application
-version: 0.3.1
+version: 0.3.2
 appVersion: "1.0"
 dependencies:
-  - name: ocs-operator
-    version: 0.3.1
+  - name: odf-operator
+    version: 0.3.2
     repository: https://chechuironman.github.io/helm-repo/
 
 
